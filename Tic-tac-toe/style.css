@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    background-color: #91a3b0;
+}
+.co{
+    font-size: 75px;
+}
+.container{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+}
+.game{
+    height: 60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1vmin;
+    
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    border :2px solid mediumblue;
+    border-color: rgb(45, 45, 107);
+    border-radius: 10px;
+    font-size: xx-large;
+    color: fuchsia;
+    background-color:gold
+}
+.box1{
+    height:18vmin;
+    width:18vmin;
+    border :2px solid mediumblue;
+    border-color: rgb(45, 45, 107);
+    border-radius: 10px;
+    font-size: xx-large;
+    color:orangered;
+    background-color:gold 
+}
+#rest{
+    font-size: large;
+    font-style:normal;
+    font-weight: bold;
+    font-family: "Libre baskerville";
+    border-radius: 10px;
+    padding: 1rem;
+    background-color:wheat;
+    color: peru;
+}
+#newgame{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Libre baskerville";
+    border-radius: 10px;
+    padding: 1rem;
+    background-color:wheat;
+    color:chartreuse;
+    background-color:#91a3b0;
+    border: none;
+}
+.msg{
+    font-size: 10vmin;
+    color:maroon;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap:4rem;
+}
+.hide{
+    display: none;
+}
+.hidden{
+    display: none;
+}
